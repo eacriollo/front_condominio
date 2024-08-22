@@ -30,6 +30,24 @@ const router = createRouter({
           name: 'cuatas',
           component: () => import('../views/admin/Cuota.vue'),
           meta: { requireAuth: true }
+        },
+        {
+          path: 'personas',
+          name: 'personas',
+          component: () => import('../views/admin/Personas.vue'),
+          meta: { requireAuth: true }
+        },
+        {
+          path: 'metodos',
+          name: 'metodos',
+          component: () => import('../views/admin/Metodos_Pago.vue'),
+          meta: { requireAuth: true }
+        },
+        {
+          path: 'datos',
+          name: 'datos',
+          component: () => import('../views/admin/Datos.vue'),
+          meta: { requireAuth: true }
         }
 
       ]
