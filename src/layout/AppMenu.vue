@@ -18,7 +18,8 @@ const model = ref([
             { label: "Cuotas", icon: "pi pi-dollar", to: "cuotas" },
             { label: "Personas", icon: "pi pi-book", to: "personas" },
             { label: "Metodo Pago", icon: "pi pi-credit-card", to: "metodos" },
-            { label: "Datos condominio", icon: "pi pi-building", to: "datos" }
+            { label: "Datos condominio", icon: "pi pi-building", to: "datos" },
+            { label: "Propiedades", icon: "pi pi-home", to: "propiedad" }
         ],
     },
     /*

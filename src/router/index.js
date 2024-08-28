@@ -48,6 +48,12 @@ const router = createRouter({
           name: 'datos',
           component: () => import('../views/admin/Datos.vue'),
           meta: { requireAuth: true }
+        },
+        {
+          path: 'propiedad',
+          name: 'propiedad',
+          component: () => import('../views/admin/Propiedad.vue'),
+          meta: { requireAuth: true }
         }
 
       ]
