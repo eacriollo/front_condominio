@@ -13,7 +13,7 @@ export default {
     funModificar(datos, id) {
         return funHttp().put("/propiedad/" + id, datos);
     },
-    funliminar(id) {
+    funEliminar(id) {
         return funHttp().delete("/propiedad/" + id);
     }
 }
